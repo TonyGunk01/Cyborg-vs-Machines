@@ -480,11 +480,11 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -388144453
-  m_SortingLayer: 2
+  m_SortingLayer: 0
   m_SortingOrder: 2
   m_MaskInteraction: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 3.125, y: 3.125, z: 3.125}
+  m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
@@ -1872,7 +1872,7 @@ MonoBehaviour:
   m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
-  m_ApplyToSortingLayers: 000000004df5a839bb62dde8
+  m_ApplyToSortingLayers: 0000000087e3c3aea3c90ac5eb9d6243
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -2007,15 +2007,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2013845324630835359, guid: 030e5bccaf9a3e34db0c93728279292e, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2.79
+      value: 2.88
       objectReference: {fileID: 0}
     - target: {fileID: 2013845324630835359, guid: 030e5bccaf9a3e34db0c93728279292e, type: 3}
       propertyPath: m_LocalScale.y
-      value: 2.79
+      value: 2.88
       objectReference: {fileID: 0}
     - target: {fileID: 2013845324630835359, guid: 030e5bccaf9a3e34db0c93728279292e, type: 3}
       propertyPath: m_LocalScale.z
-      value: 2.79
+      value: 2.88
       objectReference: {fileID: 0}
     - target: {fileID: 2013845324630835359, guid: 030e5bccaf9a3e34db0c93728279292e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2061,33 +2061,17 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 8015861609095168592, guid: 030e5bccaf9a3e34db0c93728279292e, type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8145963374870648869, guid: 030e5bccaf9a3e34db0c93728279292e, type: 3}
       propertyPath: m_SortingLayer
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8145963374870648869, guid: 030e5bccaf9a3e34db0c93728279292e, type: 3}
-      propertyPath: m_SortingOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8145963374870648869, guid: 030e5bccaf9a3e34db0c93728279292e, type: 3}
       propertyPath: m_SortingLayerID
-      value: 967374157
-      objectReference: {fileID: 0}
-    - target: {fileID: 8145963374870648869, guid: 030e5bccaf9a3e34db0c93728279292e, type: 3}
-      propertyPath: m_RenderingLayerMask
-      value: 0
+      value: -1362893945
       objectReference: {fileID: 0}
     - target: {fileID: 8716087702851273919, guid: 030e5bccaf9a3e34db0c93728279292e, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 8716087702851273919, guid: 030e5bccaf9a3e34db0c93728279292e, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8015861609095168592, guid: 030e5bccaf9a3e34db0c93728279292e, type: 3}
@@ -2096,14 +2080,14 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 8716087702851273919, guid: 030e5bccaf9a3e34db0c93728279292e, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 864498986}
+      addedObject: {fileID: 864498981}
   m_SourcePrefab: {fileID: 100100000, guid: 030e5bccaf9a3e34db0c93728279292e, type: 3}
 --- !u!1 &864498980 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8716087702851273919, guid: 030e5bccaf9a3e34db0c93728279292e, type: 3}
   m_PrefabInstance: {fileID: 806014307}
   m_PrefabAsset: {fileID: 0}
---- !u!61 &864498986
+--- !u!61 &864498981
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2263,7 +2247,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -388144453
-  m_SortingLayer: 2
+  m_SortingLayer: 0
   m_SortingOrder: 2
   m_MaskInteraction: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
@@ -2630,7 +2614,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -388144453
-  m_SortingLayer: 2
+  m_SortingLayer: 0
   m_SortingOrder: 2
   m_MaskInteraction: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
